@@ -7,10 +7,9 @@ Studentas::Studentas() : egzaminas(0), rezultatas(0.0) {}
 Studentas::Studentas(const Studentas& other) : 
     vardas(other.vardas),
     pavarde(other.pavarde),
+    paz(other.paz),
     egzaminas(other.egzaminas),
-    rezultatas(other.rezultatas) {
-    paz = other.paz;
-}
+    rezultatas(other.rezultatas) {}
 
 Studentas& Studentas::operator=(const Studentas& other) {
     if (this != &other) {
