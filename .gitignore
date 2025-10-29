@@ -1,0 +1,16 @@
+# VS Code files
+.vscode/
+
+# Visual Studio files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# Build outputs
+*.exe
+*.obj
+*.o
+Debug/
+Release/
+x64/
