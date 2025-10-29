@@ -21,4 +21,6 @@ public:
     friend std::istream& operator>>(std::istream& input, Studentas& s);
     friend std::ostream& operator<<(std::ostream& output, const Studentas& s);
     void rez(bool useMedian = false);
+    std::string getVardas() const { return vardas; }
+    std::string getPavarde() const { return pavarde; }
 };

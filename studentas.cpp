@@ -2,6 +2,7 @@
 #include <algorithm>
 #include <numeric>
 
+// Rule of Three implementation
 Studentas::Studentas() : egzaminas(0), rezultatas(0.0) {}
 
 Studentas::Studentas(const Studentas& other) : 
@@ -22,6 +23,7 @@ Studentas& Studentas::operator=(const Studentas& other) {
     return *this;
 }
 
+// Method implementations
 std::istream& operator>>(std::istream& input, Studentas& s) {
     std::cout << "Iveskite varda: ";
     input >> s.vardas;
