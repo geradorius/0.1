@@ -1,0 +1,4 @@
+﻿Pavarde     Vardas      ND1  ND2   ND3  ND4  ND5  Egzaminas
+Sabonis     Arvydas     8    9     10   6    10   9
+Kurtinaitis Rimas       7    10    8    5    4    6
+Marciulionis Sarunas    9    8     7    10   9    8
